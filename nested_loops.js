@@ -12,3 +12,10 @@ for (var year = 2023 ; year < 2025 ; year++) {
     
     console.log('Happy New Year !');
 }
+
+
+for (var i = 0 ; i < 6 ; i++) {
+    for (var y = 0 ; y < 10 ; y++){
+        console.log(i,'x', y, '=', i * y) ;
+    }
+}
