@@ -31,4 +31,4 @@ console.log(petDog,"says",dogSound) ;
 console.log(petCat,"says",catSound) ; //Burda hala puurr diycek.
 
 catSound = "Meow" ;
-console.log(petCat,"now says", catSound); //Degistirdikten sonra artik Meow diycek.
+console.log(petCat,"now says", catSound); // Degistirdikten sonra artik Meow diycek.
