@@ -42,3 +42,9 @@ console.log(longString); // "Once upon a time..."
 
 
 5 > 4 > 3 ; // return false . Cünkü 5>4 --> true -----> true > 3 ---->false . true nun karsiligi cünkü 1 dir 
+
+
+var timeRemaining = 0 ;
+var energy = 10 ;
+
+console.log("Game Over: ", timeRemaining == 0 || energy == 0 ) ; //Game Over : true
