@@ -78,3 +78,31 @@ house1.window = 15 ;
 console.log(house1)
 
 
+// with array adding a new info 
+
+var car = {} ;
+car["color"] = 'red' ;
+car["model"] = "BMW" ;
+car.year = 2021;
+console.log("CAR INFO :") 
+console.log(car) ;
+
+car.color = "green" ;
+console.log("After changing the info of cars color --> car infos" )
+console.log(car)
+
+
+// with for loops objects
+
+var arr0Keys = ["speed", "color", "altitude"] ; 
+var drone = {
+    speed : 120,
+    color : "blue",
+    altitude : 200,
+} ;
+
+var i = 0 ;
+
+for (var i ; i < arr0Keys.length ; i++) {
+    console.log(arr0Keys[i], ":", drone[arr0Keys[i]]) ;
+}
