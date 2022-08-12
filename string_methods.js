@@ -40,3 +40,27 @@ console.log("Normalde ; ", greet) ;
 console.log("Hepsi Kücük Harf ile ; ", kücük);
 console.log("Hepsi büyük harf ile ; ", büyük) ;
 
+console.log("-------------------")
+
+
+//typeof :
+
+var test = typeof("Dogukan") ;
+console.log(test) ;
+var test = typeof(3.14) ;
+console.log(test);
+
+var test = typeof(true) ;
+console.log(test);
+
+var test = typeof(1 > 3) ;
+console.log(test);
+
+var test = typeof([1, 3, 5, 7]) ;
+console.log(test) ; //object
+
+var test = typeof({color : "red", price : 13512}) ;
+console.log(test) ; //object
+
+var test = typeof(function abc(){ a = 1, b = 2}) ;
+console.log(test) ; // function
